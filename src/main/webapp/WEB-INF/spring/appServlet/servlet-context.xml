@@ -20,8 +20,8 @@
       1) mapping  : 주소가 /contextPath/resources/** 인 주소
       2) location : mapping 과 연결할 실제 디렉터리 이름
   -->
-  <resources mapping="/resources/**" location="/src/main/resources/" />
-<!--  <resources mapping="/assets/**" location="/src/main/assets/" />-->
+  <resources mapping="/resources/**" location="/resources/" />
+  <resources mapping="/assets/**" location="/assets/" />
 
   <!-- Resolves views selected for rendering by @Controllers to .jsp resources in the /WEB-INF/views directory -->
   <!--
